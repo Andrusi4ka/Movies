@@ -1,6 +1,6 @@
 # Spread, Rest, Destructuring Assignment. Generators, Symbol iterators. Optional chaining
 
-**[Результат домашнього завдання]()**
+**[Результат домашнього завдання](https://andrusi4ka.github.io/Movies/)**
 
 ### ДЗ. Інтеграція зовнішнього API для живого пошуку фільмів
 
