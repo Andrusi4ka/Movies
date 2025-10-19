@@ -1,0 +1,56 @@
+body nav .inputSearch {
+  width: 25%;
+}
+@media (max-width: 992px) {
+  body nav .inputSearch {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+body .allMovies {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  body .allMovies {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  body .allMovies {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+  }
+}
+@media (max-width: 480px) {
+  body .allMovies {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px;
+  }
+}
+body .allMovies .card {
+  border-radius: 0.7rem;
+  overflow: hidden;
+  position: relative;
+  border: none;
+}
+body .allMovies .card:hover img {
+  transition: 0.3s;
+  filter: brightness(0.3) contrast(1.1);
+}
+body .allMovies .card img {
+  width: 100%;
+  aspect-ratio: 9/14;
+}
+body .allMovies .card:hover .card-body {
+  opacity: 1;
+  transition: 0.3s;
+}
+body .allMovies .card .card-body {
+  color: #fff;
+  transition: 0.3s;
+  position: absolute;
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
